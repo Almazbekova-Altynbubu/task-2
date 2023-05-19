@@ -1,0 +1,20 @@
+.render-books{
+   
+    
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        height: 150px;
+        background-color: #FFF;
+        margin: 10px 80px;
+        box-shadow: -1px 0px 25px 0px #21719369;
+        /* padding: 2.25em; */
+        box-sizing: border-box;
+        border: solid 1px #DDD;
+        border-radius: 0.5em;
+        font-family: sans-serif;
+        color: #639;
+        font-size: 16px;
+        font-weight: 700;
+        
+      }

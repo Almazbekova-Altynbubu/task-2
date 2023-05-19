@@ -1,23 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import Books from './Components/books/Books';
 
 function App() {
+const book = [
+  {bookName:"Test-1",
+   price: 500,
+   date:"2022.4.12"
+},
+  {bookName:"Test-2",
+   price: 500,
+   date:"2022.4.12"
+},
+  {bookName:"Test-3",
+   price: 500,
+   date:"2022.4.12"
+},
+  {bookName:"Test-4",
+   price: 500,
+   date:"2022.4.12"
+},
+
+]
+
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Books books={book}/>
     </div>
   );
 }
